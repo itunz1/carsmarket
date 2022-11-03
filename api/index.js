@@ -22,7 +22,7 @@ const {updateCar} = require("./src/controllers/users")
 const { conn } = require('./src/db.js');
 
 // Syncing all the models at once.
-conn.sync({ force: true }).then(() => {
+conn.sync({ alter: true }).then(() => {
   server.listen(process.env.PORT, () => {
     console.log('%s listening at 80  o solo localhost'); // eslint-disable-line no-console
     updateCar();
