@@ -89,7 +89,7 @@ router.post("/ForBuyer", async (req, res) => {
             <h2>Correo enviado por el vendedor</h2>
  
             <span>Hola, <strong>${firstName} ${lastName}</strong>, <strong>${firstNameSeller} ${lastNameSeller}</strong> 
-            te envio un mensaje para que lo califiques a traves del siguiente <a href=http://localhost:3000/sellerRatingForm?id=${idSeller}>link</a>.</span><br/>
+            te envio un mensaje para que lo califiques a traves del siguiente <a href=https://carsmarket.vercel.app/sellerRatingForm?id=${idSeller}>link</a>.</span><br/>
             
             <hr />
             <h3>Instrucciones:</h3>
